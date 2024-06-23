@@ -1,0 +1,924 @@
+===============
+Day-01 : Linux
+===============
+
+1) Pre-Requisites
+
+2) Course Content
+
+3) Who can learn this course
+
+4) What is the benefit you are goning to get from this course
+
+5) Realtime usecases of Linux OS
+
+6) Course Info
+
+================
+pre-requisites
+================
+
+1) Laptop/Desktop => 8 GB RAM
+2) AWS Cloud Account (Free Tier)
+
+===============================
+Who should learn this course ?
+================================
+
+1) Freshers
+2) Working Professional (java, net, python, tester, devops, aws)
+3) Non IT people
+
+======================================
+Where we will use Linux in Realtime ?
+======================================
+
+To setup Tomcat server
+
+To setup jenkins
+
+To setup docker
+
+To setup k8s
+
+To setup sonar
+
+To setup nexus
+
+To setup ELK
+
+To store logs
+
+==========================================
+What we will learn as part of this course
+==========================================
+
+Name : Linux + Shell Scripting
+
+Duration : 2 Weeks
+
+Class Time : 6:30 PM to 8:00 PM (IST) ==> Mon-Sat
+
+Course Fee : Zero (Live Classes + Softcopy material)
+
+Backup Videos : 499 INR (1 year validity)
+
+
+==========================
+What is Operating System
+==========================
+
+=> It is a software which acts as mediator between users and computers
+
+=> Users will communicate with computers using Operating System (OS)
+
+=> Without OS we can't use any computer
+
+=> OS provides platform/environment to use computers
+
+	Ex: Notepad, Calculator, Browsers....etc
+
+=> We have several Operating Systems in market
+
+		Ex: Windows, Linux, MAC, Android, IOS.....
+
+=============
+Windows OS
+=============
+
+=> Developed by Microsoft
+
+=> It is GUI based OS (Graphical User Interface)
+
+=> It is commercial OS (paid)
+
+=> Security features are less (Anti-virus is required)
+
+=> Windows OS is recommended for personal use
+
+Ex: Play Games, Watch Movies, Internet Browsing, Store data, Online Classes...
+
+=> Single User based OS
+
+Note: Windows is not recommended for business usecases (servers, tools, application deployment..)	
+
+=======================
+Linux Operating System
+=======================
+
+=> Linux is a community based OS
+
+=> Linux is free & Open Source
+
+=> Linux Provides High Security
+
+=> Linux is Multi User based OS
+
+=> Linux is highly recommended for project operations
+
+=> Linux is CLI based OS (Command Line Interface)
+
+		touch
+		mv
+		rm
+		vi
+		mkdir
+		cat
+
+Note: In real-time we will use Linux machines to setup our infrastructure.
+	
+	Ex: jenkins, sonarqube, nexus, docker, k8s, ansible etc.....
+
+
+=================
+Linux OS History
+=================
+
+=> Developed by Linus Torvalds	
+
+=> Initially Linus Torvalds was using Unix OS and found some challenges in that and informed to that company but they did not accept his suggestions.
+
+=> Linus started doing research and he found "Minux OS" is similar to his ideas.
+
+=> He has taken Minux OS and made few changes to that and released into market as Linux OS.
+
+		(Lin)us   + Min(ux) = Linux
+
+
+================================
+Linux Distributions / Flavours
+================================
+
+=> Linus Tarvalds given Linux os as free and open source
+
+=> Many companies downloaded Linux OS code and modified according to their requirement and released into market with different names. 
+
+		Those are called as Linux Distributions/Flavours.
+
+Ex: Amazon Linux, Red Hat, Ubuntu, Cent OS, SuSe, Kali, Fedora.......	
+
+Note: We have 200+ linux distributions	
+
+
+==========
+Summary
+==========
+
+1) What is OS & Why we need it ?
+2) Windows OS
+3) Linux OS
+4) Linux OS History
+5) Linux Distributions
+
+=====================
+Linux Machine Setup
+=====================
+
+1) Login into AWS cloud account
+
+2) Create Linux Virtual Machine using AWS Ec2 service
+
+3) Connect with Linux VM using Git Bash/ MobaXterm / Putty
+
+
+ðŸ”¥ Thankyou all for being part of *Ashok IT - Family*
+
+âœ… Please go thru below videos and get ready with setup before coming to tomorrow's class.
+
+ðŸ‘‰ Linux Free Material Access: https://youtu.be/GySi7CuOZdk?si=2eIfmSRY5_WUAwHl
+
+ðŸ‘‰ AWS account setup : https://www.youtube.com/watch?v=xi-JDeceLeI
+
+ðŸ‘‰ Linux Machine with Git Bash : https://www.youtube.com/watch?v=JMlQaTXvw5o
+
+ðŸ‘‰ Linux Machine with MobaXterm : https://youtu.be/uI2iDk8iTps?si=ZuZs0lQTxoRpbRMk
+
+ðŸ‘‰ Linux Machine with putty : https://youtu.be/GXc_bxmP0AA?si=HgSydrP89mPxv23s
+
+
+ðŸ’¥ *Linux Backup Videos (499 INR ) : https://rzp.io/l/linux-os*
+
+-
+*Ashok IT*
+
+
+
+
+
+
+===================
+Linux File System
+===================
+
+=> Everything is represented as a file only
+
+=> 3 Types of files
+
+		1) Ordinary file / Normal file (starts with -)
+
+		2) Directory file (folder) (starts with d)
+
+		3) Link File (starts with l)
+
+================
+Linux Commands	
+================
+
+whoami : To display logged in username
+
+date : displays current date
+
+cal : display calendar
+
+pwd : display present working directory path
+
+cd : change directory
+
+		$ cd <dirname>
+
+		$ cd ..
+
+ls : list content
+
+mkdir : make directory (create)
+
+rmdir : delete empty directory
+
+
+ls -l : Long listing with alphabetical order (ascending)
+
+ls -lr : reverse of alphabetical order (descending)
+
+ls -lt : Display latest files on top
+
+ls -ltr : old files on top
+
+ls -la : display hidden files (starts with .)
+
+touch : to create empty files
+
+		$ touch f1.txt f2.txt
+
+rm : to delete files/non-empty directories
+
+		$ rm <file-name>
+
+		$ rm *.txt
+
+		$ rm a*.txt
+
+		$ rm -rf <dir-name>
+
+mv : rename & move from one location to another location
+
+		$ mv  <present-name> <new-name>
+
+		$ mv  <present-location>  <new-location>
+
+
+cat : create file with data + append data to file + print file data		
+
+		$ cat > f1.txt 
+
+		$ cat >> f1.txt
+
+		$ cat f1.txt
+
+		$ cat -n f1.txt
+
+		$ cat f1.txt f2.txt > f3.txt
+
+
+tac : To print file content from bottom to top
+
+    $ tac f1.txt
+
+rev : To reverse each line of data
+
+    $ rev f1.txt
+
+cp : To copy one file data into another file
+
+    $ cp f1.txt f2.txt
+
+Note: To copy more than one file data into another file we will use cat command
+
+    $ cat f1.txt f2.txt > f3.txt 
+
+wc : word count command
+
+      $ wc f1.txt  (no.of lines, no.of words, no.of chars)    
+
+cmp : Compare file
+
+	  $ cmp f1.txt f2.txt    
+
+
+head : To display file data from top (default 10 lines)
+
+	$ head f1.txt
+
+	$ head -n 5 f1.txt   (print first 5 lines only)
+
+	$ head -n 15 f1.txt   (print first 15 lines only)
+
+tail : To display file data from bottom (default 10 lines)
+
+      $ tail f1.txt
+
+      $ tail -n 20 f1.txt  (print last 20 lines of file)
+
+      $ tail -n 100 f1.txt (print last 100 lines of file)
+
+      $ tail -f f1.txt (to get live data)
+
+grep : grep stands for global regular expression print
+
+	  $ grep 'aws' f1.txt   (print lines having aws keyword)
+
+      $ grep -i 'AWS' f1.txt (ignore case sensitive)
+
+      $ grep -n 'aws' f1.txt (print lines having aws with line number)
+
+      $ grep -v 'aws' f1.txt (print lines which doesn't have aws keyword)
+
+      $ grep -i -n 'linux' *  (search linux in all files of pwd)
+
+
+
+=======================
+Text Editors in Linux
+=======================
+
+=> vi (visual editor) it is default editor in linux machines
+
+=> Using 'vi' we can create new files and we can modify existing file data
+
+		$ vi f1.txt
+
+=> vi command is having 3 modes
+
+	a) command mode (just to open the file)
+	
+	b) insert mode (to edit the file ) ---> press 'i' in keyboard
+
+	c) esc mode (to comeout from insert mode) --> press 'esc' in keyboard
+
+
+    ## Save changes & close the file =>  :wq
+    
+    ## Without saving changes close the file => :q!	
+
+
+Note: vi command will open the file if it is already avilable otherwise it will create new file and it will open that file.
+
+===================================
+file creation commands in linux
+===================================
+
+touch : to create empty file
+
+cat : create file with data
+
+cp : copy one file into another file (cp f1.txt f2.txt)
+
+vi : create and open file for editing (vi f3.txt)
+
+====================================
+Reading file data commands in linux
+====================================
+
+cat : print file data from top to bottom
+
+tac  : print file data from bottom to top
+
+rev : print each line in reverse order
+
+head : print first 10 lines of file data
+
+tail : print last 10 lines of file data
+
+vi : open the file 
+
+
+=============
+SED command
+=============
+
+=> SED stands for stream editor
+
+=> SED is used to process the data (substitute,delete,insert)
+
+=> Using SED command we can perform operations on the file without opening the file.
+
+=> SED is very powerful command in linux
+
+=> Create a file with below data to practice sed command
+
+java is a programming language
+java is free
+java is open source
+java is easy
+i want to learn java
+java is having good demand in market
+java is oop based. java is easy.
+
+
+# substitute first occurance of 'java' with 'python' in every line
+$ sed 's/java/python/' data.txt
+
+# Replace second occurance of 'java' with 'python' in every line
+$ sed 's/java/python/2' data.txt
+
+# Replace third occurance of 'java' with 'python' in every line
+$ sed 's/java/python/3' data.txt
+
+# Replace all occurances of 'java' with 'python' in every line
+$ sed 's/java/python/g' data.txt
+
+# Substitute and save changes in original file
+$ sed -i 's/java/python/g' data.txt
+
+# Delete 4th line of file
+$ sed -i '4d' f1.txt
+
+# Delete last line of file
+$ sed -i '$d' f1.txt
+
+# Delete data from 3rd line to last line
+$ sed -i '3,$d' data.txt
+
+# Delete data from 5th line to 10th line
+$ sed -i '5,10d' data.txt
+
+# print all lines which contains 'python' keyword
+$ sed '/python/p' data.txt
+
+# delete all lines which contains 'python' keyword
+$ sed '/python/d' data.txt
+
+# print data from 3rd line to 6th line
+$ sed -n '3,6p' data.txt
+
+# insert data at 4th line
+$ sed '4i\i am from ashokit' data.txt
+
+# Add given text at end of the file
+$ sed '$a\i love linux' data.txt
+
+
+====================
+What is AWK Command
+=====================
+
+=> The awk command is a versatile text processing tool available Linux. 
+
+=> It allows you to manipulate and extract data from structured text files, usually in a columnar format. 
+
+=> awk takes input, processes it line by line, and performs actions based on specified patterns and rules.
+
+Sytax : awk 'pattern { action }' file
+
+$ cat > employees.txt 
+
+Ashok manager account 45000
+John clerk account 25000
+Smith manager sales 50000
+Charles manager account 47000
+Ganesh peon sales 15000
+Mahesh clerk sales 23000
+Ram peon sales 13000
+Cathy director purchase 80000 
+
+# Print entire file data
+$ awk '{print}' employees.txt
+
+# print only manager role data
+$ awk '/manager/ {print}' employees.txt
+
+# print first & fourth columns data
+$ awk '{print $1,$4}' employees.txt 
+
+# print file data with line numbers
+$ awk '{print NR,$0}' employees.txt 
+
+# print first column data along with line number by appending @
+$ awk '{print NR "@" $1 }' employees.txt
+
+
+===========================
+Users & Groups Management
+===========================
+
+=> Linux is a multi user based OS
+
+=> Within one linux machine we can create multiple user accounts
+
+=> Multiple users can acces single linux machine at a time and can perform multi tasking
+
+Note: "ec2-user" is default user in amazon linux vm.
+
+# Create new user 
+$ sudo useradd <username>
+
+# set password for user
+$ sudo passwd <username>
+
+# display all users created
+$ cat /etc/passwd
+
+# swith user
+$ sudo su <username>
+
+# Go to logged in user home directory
+$ cd ~
+
+# Delete User
+$ sudo userdel <username>
+
+# Delete user along with user home directory
+$ sudo userdel <username> --remove
+
+# how to change username
+$ sudo usermod -l <new-name> <old-name>
+
+
+===========================
+Working with User Groups
+===========================
+
+=> When we create user in linux, for every user one user group also will be created with the given username.
+
+# Display all groups in linux
+$ cat /etc/group
+
+# create group
+$ sudo groupadd <group-name>
+
+# Add user to group
+$ sudo usermod -aG <group-name> <username>
+
+# Remove user from group
+$ sudo gpasswd -d <username> <group-name>
+
+# Display users belongs to a group
+$ sudo lid -g <group-name>
+
+# Display one user belongs to which grops
+$ id <username>
+
+# Delete Group
+$ sudo groupdel <group-name>
+
+# Changing groupname
+$ sudo groupmod -n <new-name> <old-name>
+
+=================================
+What is sudoers file in Linux
+=================================
+
+=> It is very important configuration file in linux machine.
+
+=> Using this file we can control which user can run command as a superuser.
+
+# print sudoers file content
+$ sudo cat /etc/sudoers
+
+Note: We should be very careful while working with sudoers file. If we do any mistakes in sudoers file then system will be crashed.
+
+########## Giving sudo previliges for user #######
+
+# Open sudoers file
+$ sudo visudo
+
+# Add below line to give sudo permission for particular user
+username ALL=(ALL:ALL) ALL
+
+Ex : ashok ALL=(ALL:ALL) ALL
+
+=> After making changes, to close sudoers file => ( CTRL + X + Y + Enter)
+
+========================================================
+How to enable password based authentication for user ?
+========================================================
+
+=> To enable password based authentication we need to deal with sshd_config file
+
+=> in sshd_config file, by default PassswordBasedAuthentication is no.
+
+=> To enable password based authentication we need to set the value as yes.
+
+# Display sshd_configurration file data
+$ sudo cat /etc/ssh/sshd_config
+
+# Open sshd_config file
+$ sudo vi /etc/ssh/sshd_config
+
+# restart sshd service
+# sudo systemctl restart sshd
+
+==============================================
+Connect with Linux VM using username and pwd
+==============================================
+
+Step-1) Connect to Linux VM as ec2-user using pem file
+
+Step-2) Create new user 'ram'
+
+        $ sudo useradd ram
+
+Step-3) Update password for 'ram'
+
+        $ sudo passwd ram
+
+Step-4) Configure 'ram' in sudoers file
+
+        $ sudo visudo
+
+Step-5) Enabled PwdBasedAuthentication in 'sshd_config' file
+
+        $ sudo vi /etc/ssh/sshd_config
+
+Step-6) Restart sshd service
+
+        $ sudo systemctl restart sshd
+
+Step-7) Use putty & Connect to linux vm as 'ram' user using username & pwd
+
+
+==================
+File Permissions
+==================
+
+=> In linux, file permissions are divided into 3 types.
+
+    r => read
+    w => write
+    x => execute
+
+=> Every file will have 3 sections in permissions
+
+      => user (owner)  (u)
+      => group  (g)
+      => other users (o)
+
+      rwxrwxrwx
+
+      => first 3 chars will represent user(owner) permissions
+
+      => middle 3 chars will represent group permissions
+
+      => last 3 chars will represent other users permissions
+
+
+    1)  rw-rwxrw-  f1.txt
+      		
+      		=> rw- : user having read + write 
+      		=> rwx : group having read+write+execute
+      		=> rw- : others having read + write
+
+    2)  r-xr--r--  f2.txt
+
+    		=> r-x : user having read + execute
+    		=> r-- : group having only read
+    		=> r-- : others having only read
+
+    3)  -w-r-xrwx  f3.txt
+
+    		=> -w- : user having only write
+    		=> r-x : group having read + execute
+    		=> rwx : others having read + write + execute
+
+
+=> To change file permissions in linux, we will use 'chmod' command
+
+
+# Giving execute permission for user
+$ chmod u+x f1.txt
+
+# giving write permission for group
+$ chmod g+w f1.txt
+
+# Remove execute permission for others
+$ chmod o-x f1.txt
+
+# Remove all permissions for other users
+$ chmod o-rwx f1.txt
+
+====================================
+File Permissions in Numeric Format
+====================================
+
+0 => No permissions
+
+1 => Execute
+
+2 => Write
+
+3 => (2+1) => Write + Execute
+
+4 => Read
+
+5 => (4+1) => Read + Execute
+
+6 => (4+2) => Read + Write
+
+7 => (4 + 2 + 1) => Read + Write + Execute
+
+
+$ chmod 777 f1.txt
+
+$ chmod 111 f2.txt
+
+$ chmod 222 f2.txt
+
+$ chmod 456 f2.txt
+
+
+Q-1) What is default permissions for file in linux ?
+
+		644
+
+Q-2) what is default permissions for directory in linux ?
+
+		755
+
+==============
+chown command
+==============
+
+=> It is used to change file/directory ownership
+
+# changing owner
+$ sudo chown new-owner file/directory
+
+# changing owner-group
+$ sudo chown :newGroup file/directory
+
+# changing owner & owner-group
+$ sudo chown owner:group file/directory
+
+
+============================================
+Q) What is the diff between chmod & chown ?
+============================================
+
+chmod => To change file/directory permissions
+
+chown => To change owner/group
+
+
+==================================
+Working with zip files in linux
+=================================
+
+=> Zip is used for files archieve (compress)
+
+####  create zip file syntax : zip <zip-name>  <content>
+
+# create zip with all txt files
+$ zip ashokit *.txt
+
+# print content of zip file
+$ zip -sf ashokit.zip
+
+# Add new file to existing zip file
+$ zip -r ashokit.zip f4.txt
+
+# Delete file from existing zip file
+$ zip -d ashokit.zip f4.txt
+
+# create zip file with password
+$ zip -e ashokit *.txt
+
+# Extract zip file content
+$ unzip ashokit.zip
+
+======================
+Networking Commands
+======================
+
+ping : To check connectivity
+
+    $ ping 192.168.8.0
+
+    $ ping www.google.com
+
+wget : It is used to download files from internet   
+
+    $ wget <url> 
+
+    $ wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.89/bin/apache-tomcat-9.0.89.zip
+
+curl : It is used to send http request to server & get the response
+
+    $ curl <url>
+
+    $ curl https://type.fit/api/quotes
+
+ifconfig: To get the IP address of the machine
+
+      $ ifconfig
+
+
+====================================================
+
+free : to display memroy level details
+
+top : to display running processes
+
+htop : to display running processes in table format
+
+# install htop command
+$ sudo yum install htop
+
+==========================
+Working with Link Files
+===========================
+
+=> In linux we can create link files ( similar to shorcut files in windows )
+
+=> We can create link files in 2 ways
+
+  1) hard link
+
+  2) soft link
+
+--------------------------------
+Syntax To create Hard Link
+--------------------------------
+
+$ ln <original-file> <link-file>
+
+
+$ touch m1.txt
+
+$ ln m1.txt f1.txt
+
+Note: If we write some data to m1.txt that data will reflect in f1.txt file also
+
+Note: If we delete m1.txt file there is no effect on f1.txt
+
+Note: If we delete original file there is no effect on hard link file
+
+------------------------------
+Syntax To create Soft Link 
+------------------------------
+
+$ ln -s <original-file> <soft-link-file>
+
+Note: When we remove original file then soft link file will become dangling file. We can't access that file.
+
+================
+1) whoami
+2) date
+3) cal
+4) pwd
+5) cd
+6) ls
+7) touch
+8) rm
+9) mv
+10) cat
+11) tac
+12) rev
+13) cp
+14) diff
+15) cmp
+16) wc
+17) history
+18) head
+19) tail
+20) grep
+21) vi
+22) sed
+23) awk
+
+24) useradd
+25) passwd
+26) id
+27) userdel
+28) usermod
+29) groupadd
+30) groupdel
+
+31) chmod
+32) chown
+
+33) ping
+34) wget
+35) curl
+36) ifconfig
+
+37) zip
+38) unzip
+
+39) free
+40) top
+41) htop
+
+42) ln
+
+=========================================================
+Q) what is the diff between find and locate commands ?
+=========================================================

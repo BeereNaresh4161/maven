@@ -1,0 +1,57 @@
+Source Code Repository Tool/Version Control Software
+=====================================================
+
+--> Multiple Developers will work for Project Development.
+
+--> Developers will working from multiple Locations.
+
+--> All developers code should be store at one place. 
+    (i.e code integration should happen)
+
+--> To integrate all the developers Source Code at one place we will use 
+    Source repository Software.
+
+
+Advantages with Source Code Repository Software
+===============================================
+
+--> All the developers can commit to Repository Server and can integrate the 
+    code.
+
+--> Repository Server will provide Monitered Access
+	-> Who modified Code
+	-> When modified Code
+	-> Why modified Code
+	-> What modified Code
+
+
+Source Code Repository Defination:
+==================================
+	--> Source Code Repository is also called as Code Repo.
+	--> It is a plcae where developers can Store, Share and collaborate
+	    on the Source Code of a Software Project.
+	--> Beyond the code itself, you can keep Documentations, Notes,
+	    Scripts, test, Webpages and other items in Repository.
+
+Source Code Repository Tools:
+=============================
+	1. SVN (SubVersion)-----> Outdated
+	2. GitHub 
+	3. GitLab
+	4. GitBucket
+
+All the above tools are allows for similar functionality.
+You will be able to,
+--> Collaborate with other Developers.
+--> Utilize issue tracking tools.
+--> Leverage code reviews.
+--> use CI/CD Pipe Lines.
+--> Version Control.
+
+
+Repository Types:
+=================
+1. Public Repository: Means everybody can access.
+		      But we can choose who can modified our repository.
+
+2. Private Repository: Means we will choose who can access and who can                         modified.

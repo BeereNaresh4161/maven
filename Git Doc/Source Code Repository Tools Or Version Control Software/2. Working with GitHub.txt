@@ -1,0 +1,28 @@
+Environment Setup to work with GitHub
+=====================================
+1. Create GitHub account 
+    (www.github.com)
+
+2. Download and install Git Client Software
+     (http://git-scm.com/downloads)
+
+	Git Client Softwares
+	====================
+ 	--> Git Bash
+ 	--> Git GUI
+ 	--> Tortoise GIT
+ 	--> Source Tree etc.....
+
+NOTE: We can use any Git Client Software to Communicate with GitHub repository.
+
+3. Once installtion completed, right click on the mouse and click GitBash here  
+   and verify it.
+
+4. git -version.
+
+NOTE:
+=====
+ -----> Repository is used to store Project SourceCode.
+ -----> Every project will have only One Repository.
+ -----> When we create a repository, unique URL be generated with repo name. 	(i.e repo URL)
+ -----> All the developers will connect to repository using Repository URL.

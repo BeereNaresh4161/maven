@@ -1,0 +1,54 @@
+
+Head and Tail Commands
+===============
+
+Cat ---- Print data from top to bottom(Total file)
+Tac---- Print data from bottom to top(Total file)
+
+Head --- It is used to print data from top to bottom
+        --- Bydefault it prints first 10 lines of a file
+
+Tail ---- It is used to print data from bottom to top
+        --- Bydefault it prints last 10 lines of a file
+
+
+Head and Tail Commands are very useful to trouble shoot the log files
+i.e Latest logs will be available at the bottom
+
+Log files data will be some thousands of lines, so cat and tac commands will display all lines
+so we are not preffered these commands.
+
+we will use head and tail commands with specifi line data of a file
+
+$head <filename>   --- reads first 10 lines of a file bydefault
+$tail <filename>  ----- reads last 10 lines of a file bydefault
+
+$head sbi.log  ---- reads first 10 lines
+
+$head -n 25 sbi.log ---- reads first 25 lines
+
+$head -n 50 sbi.log ---- reads first 50 lines
+
+
+$tail sbi.log  ---- reads last 10 lines
+
+$tail -n 25 sbi.log ---- reads last 25 lines
+
+$tail +50 sbi.log ---- reads from 50th line to bottom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
